@@ -3,13 +3,11 @@
 
 #### 🔄 Iteration Log
 
-**Attempt 1:** "Compare FedEx and UPS." 
-*(Error: The AI gave a generic history of the companies, not a rate comparison.)*
-
-**Attempt 2:** "Compare these two quotes from FedEx and UPS." 
-*(Error: The AI wrote a long, confusing paragraph comparing the prices.)*
-
-**Attempt 3 (Final Prompt):** "Act as a Logistics Analyst. Compare the following freight quotes: [Insert Quote Data]. Output a comparison table highlighting three columns: Total Cost, Transit Time, and Reliability Score. Below the table, write a one-sentence recommendation based on the lowest cost per day of transit."
+| Prompt Version | Change Made | Observed Effect | Lesson Learned |
+| :--- | :--- | :--- | :--- |
+| **v1.0** | Initial broad instruction ("Compare FedEx and UPS") | Output gave a generic history of the companies, not a rate comparison. | AI will default to general knowledge if not fed specific data. |
+| **v1.1** | Provided quote data | Output wrote a long, confusing paragraph comparing the prices. | Unstructured financial data is useless for quick decision-making. |
+| **v1.2** | Added specific column requirements + recommendation constraint | Output perfectly structured the unstructured pricing data into a decision matrix. | Table constraints are essential for comparative analysis. |
 
 **Automation Potential:** Very High. Perfect for structuring unstructured pricing data.
 **Risks & Limitations:** AI might misunderstand currency symbols or fuel surcharges. 
