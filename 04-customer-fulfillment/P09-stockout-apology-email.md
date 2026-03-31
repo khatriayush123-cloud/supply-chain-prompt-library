@@ -1,7 +1,7 @@
-**Intended Workflow:** Customer Fulfillment - Service Recovery.
-**Problem Solved:** Standardizes difficult customer conversations, turning a negative experience into a structured choice that might save the sale.
+**Final Prompt Text:**
+> "Act as a Customer Success Manager. Write an empathetic, professional email to [Insert Customer Name] regarding Order [Insert Order Number]. The item [Insert Item Name] is currently out of stock. Offer them two clear options: a full immediate refund, or a 15% discount if they choose to wait for the restock on [Insert Date]."
 
-#### 🔄 Iteration Log
+**Intended Workflow:** Customer Fulfillment - Service Recovery. **Problem Solved:** Standardizes difficult customer conversations, turning a negative experience into a structured choice that might save the sale.
 
 #### 🔄 Iteration Log
 
@@ -12,5 +12,5 @@
 | **v1.2** | Added Customer Success Role + constraint to offer two clear options | Output standardized a difficult conversation into a structured choice. | Specific resolution constraints turn negative experiences into actionable paths. |
 
 **Automation Potential:** High. Easily integrated into a CRM system.
-**Risks & Limitations:** Sending this to a VIP or enterprise client might feel too "automated." 
-*Mitigation:* High-value clients should receive a personalized phone call instead of an AI email.
+
+**Risks & Limitations:** Sending this to a VIP or enterprise client might feel too "automated." *Mitigation:* High-value clients should receive a personalized phone call instead of an AI email.
