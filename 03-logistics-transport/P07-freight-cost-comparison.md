@@ -1,5 +1,7 @@
-**Intended Workflow:** Logistics - Carrier Selection.
-**Problem Solved:** Eliminates the need to manually build comparison tables for every single freight shipment.
+**Final Prompt Text:**
+> "Act as a Logistics Analyst. Compare the following freight quotes: [Insert Quote Data]. Output a comparison table highlighting three columns: Total Cost, Transit Time, and Reliability Score. Below the table, write a one-sentence recommendation based on the lowest cost per day of transit."
+
+**Intended Workflow:** Logistics - Carrier Selection. **Problem Solved:** Eliminates the need to manually build comparison tables for every single freight shipment.
 
 #### 🔄 Iteration Log
 
@@ -10,5 +12,5 @@
 | **v1.2** | Added specific column requirements + recommendation constraint | Output perfectly structured the unstructured pricing data into a decision matrix. | Table constraints are essential for comparative analysis. |
 
 **Automation Potential:** Very High. Perfect for structuring unstructured pricing data.
-**Risks & Limitations:** AI might misunderstand currency symbols or fuel surcharges. 
-*Mitigation:* Spot-check the "Total Cost" column against the original quotes.
+
+**Risks & Limitations:** AI might misunderstand currency symbols or fuel surcharges. *Mitigation:* Spot-check the "Total Cost" column against the original quotes.
