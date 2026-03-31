@@ -1,5 +1,7 @@
-**Intended Workflow:** Warehousing - Stock Analysis.
-**Problem Solved:** Replaces the manual sorting of Excel sheets to find critical stock issues.
+**Final Prompt Text:**
+> "Act as a Warehouse Manager. Analyze the following raw inventory data: [Insert Data]. Identify the top 3 items running low on stock and the top 3 overstocked items. Provide a short, bulleted executive summary and a two-sentence recommendation for reordering."
+
+**Intended Workflow:** Warehousing - Stock Analysis. **Problem Solved:** Replaces the manual sorting of Excel sheets to find critical stock issues.
 
 #### 🔄 Iteration Log
 
@@ -10,5 +12,5 @@
 | **v1.2** | Added formatting constraints (top 3, bullets, executive summary) | Output rapidly converted raw data into a highly readable, actionable summary. | Constraining output length and format improves business utility. |
 
 **Automation Potential:** High. Rapidly converts raw CSV data into a readable executive summary.
-**Risks & Limitations:** The AI could make a math error if the formatting of the raw data is messy. 
-*Mitigation:* Always spot-check the top 3 items against the actual database.
+
+**Risks & Limitations:** The AI could make a math error if the formatting of the raw data is messy. *Mitigation:* Always spot-check the top 3 items against the actual database.
