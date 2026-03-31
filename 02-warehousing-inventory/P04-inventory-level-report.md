@@ -3,8 +3,6 @@
 
 #### 🔄 Iteration Log
 
-#### 🔄 Iteration Log
-
 | Prompt Version | Change Made | Observed Effect | Lesson Learned |
 | :--- | :--- | :--- | :--- |
 | **v1.0** | Initial broad instruction ("Write a report about our inventory") | AI hallucinated fake products and numbers because no context was provided. | Never ask for analysis without providing grounding data. |
