@@ -3,13 +3,13 @@
 
 #### 🔄 Iteration Log
 
-**Attempt 1:** "Write a report about our inventory." 
-*(Error: The AI completely hallucinated fake products and numbers because no data was provided.)*
+#### 🔄 Iteration Log
 
-**Attempt 2:** "Look at this raw inventory data and write a report." 
-*(Error: The AI just repeated the data back in paragraph form without analyzing it.)*
-
-**Attempt 3 (Final Prompt):** "Act as a Warehouse Manager. Analyze the following raw inventory data: [Insert Data]. Identify the top 3 items running low on stock and the top 3 overstocked items. Provide a short, bulleted executive summary and a two-sentence recommendation for reordering."
+| Prompt Version | Change Made | Observed Effect | Lesson Learned |
+| :--- | :--- | :--- | :--- |
+| **v1.0** | Initial broad instruction ("Write a report about our inventory") | AI hallucinated fake products and numbers because no context was provided. | Never ask for analysis without providing grounding data. |
+| **v1.1** | Provided raw data | AI simply repeated the data back in paragraph form without prioritizing insights. | Must instruct the AI on *how* to analyze the data. |
+| **v1.2** | Added formatting constraints (top 3, bullets, executive summary) | Output rapidly converted raw data into a highly readable, actionable summary. | Constraining output length and format improves business utility. |
 
 **Automation Potential:** High. Rapidly converts raw CSV data into a readable executive summary.
 **Risks & Limitations:** The AI could make a math error if the formatting of the raw data is messy. 
