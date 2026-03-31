@@ -1,4 +1,7 @@
-**Intended Workflow:** Procurement - Sourcing Materials.
+**Final Prompt Text:**
+> "Act as a Sourcing Manager. Draft a formal Request for Quotation (RFQ) for [Insert Quantity] of [Insert Item]. Include mandatory sections for: Technical Specifications, Required Delivery Timeline, Warranty Requirements, and Vendor Compliance. Keep the tone strictly professional."
+
+**Intended Workflow:** Procurement - Sourcing Materials. 
 **Problem Solved:** Standardizes the formatting of RFQs, ensuring suppliers receive consistent, professional documents.
 
 #### 🔄 Iteration Log
