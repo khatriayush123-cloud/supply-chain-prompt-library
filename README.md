@@ -33,4 +33,17 @@ prompt-library/
     └── P10-delivery-status-update.md
 ```
 
-📊 Library Summary TableIDPrompt NameWorkflowAutomation LevelRisk LevelStatusP01Supplier Delay InquiryProcurementHighLow✅ TestedP02Contract Fee SummaryProcurementHighHigh✅ TestedP03RFQ DraftingProcurementMediumMedium✅ TestedP04Inventory Level ReportWarehousingHighLow✅ TestedP05Safety Incident BulletinWarehousingHighHigh✅ TestedP06Route Disruption PlanLogisticsHighMedium✅ TestedP07Freight Cost ComparisonLogisticsVery HighLow✅ TestedP08Customs Doc ChecklistLogisticsMediumHigh✅ TestedP09Stockout Apology EmailFulfillmentHighMedium✅ TestedP10Delivery Status UpdateFulfillmentVery HighLow✅ Tested
+## 📊 Library Summary Table
+
+| ID | Prompt Name | Workflow | Automation Level | Risk Level | Status |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **P01** | Supplier Delay Inquiry | Procurement | High | Low | ✅ Tested |
+| **P02** | Contract Fee Summary | Procurement | High | High | ✅ Tested |
+| **P03** | RFQ Drafting | Procurement | Medium | Medium | ✅ Tested |
+| **P04** | Inventory Level Report | Warehousing | High | Low | ✅ Tested |
+| **P05** | Safety Incident Bulletin | Warehousing | High | High | ✅ Tested |
+| **P06** | Route Disruption Plan | Logistics | High | Medium | ✅ Tested |
+| **P07** | Freight Cost Comparison | Logistics | Very High | Low | ✅ Tested |
+| **P08** | Customs Doc Checklist | Logistics | Medium | High | ✅ Tested |
+| **P09** | Stockout Apology Email | Fulfillment | High | Medium | ✅ Tested |
+| **P10** | Delivery Status Update | Fulfillment | Very High | Low | ✅ Tested |
