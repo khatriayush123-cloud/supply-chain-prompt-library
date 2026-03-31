@@ -1,7 +1,7 @@
-**Intended Workflow:** Warehousing - OHS (Occupational Health & Safety).
-**Problem Solved:** Ensures safety communications are drafted quickly after an incident without emotional bias or legal risks.
+**Final Prompt Text:**
+> "Act as a Health & Safety Officer. Draft a 150-word safety bulletin based on the following incident: [Insert Incident Description]. Focus strictly on the root cause and provide 3 actionable prevention steps for warehouse staff. Use a serious, educational tone. Do not assign personal blame or liability."
 
-#### 🔄 Iteration Log
+**Intended Workflow:** Warehousing - OHS (Occupational Health & Safety). **Problem Solved:** Ensures safety communications are drafted quickly after an incident without emotional bias or legal risks.
 
 #### 🔄 Iteration Log
 
@@ -12,5 +12,5 @@
 | **v1.2** | Added OHS Role + strict "no blame" constraint + prevention steps | Output was serious, educational, and safe from a liability perspective. | Strict tone and legal constraints are mandatory for OHS workflows. |
 
 **Automation Potential:** High. Standardizes safety reporting across all warehouse sites.
-**Risks & Limitations:** The AI might give safety advice that violates local labor laws. 
-*Mitigation:* The final draft must be approved by the HR or OHS compliance team.
+
+**Risks & Limitations:** The AI might give safety advice that violates local labor laws. *Mitigation:* The final draft must be approved by the HR or OHS compliance team.
